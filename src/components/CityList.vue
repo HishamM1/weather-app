@@ -34,7 +34,7 @@ const getCities = async () => {
                 return;
             }
             console.log(city.coords.lat, city.coords.lng);
-            requests.push(axios.get(`https://api.openweathermap.org/data/2.5/weather?lat=${city.coords.lat}&lon=${city.coords.lng}&appid=b2dd904d9b08ce8023c0c053158493f2&units=metric`)
+            requests.push(axios.get(`https://api.openweathermap.org/data/2.5/weather?lat=${city.coords.lat}&lon=${city.coords.lng}&appid=######&units=metric`)
             );
         });
         console.log(requests);

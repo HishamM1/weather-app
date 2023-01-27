@@ -53,7 +53,7 @@ const previewCity = (searchResult) => {
   })
 }
 
-const mapboxAPIKey = 'pk.eyJ1IjoiaGlzaGFtbTEiLCJhIjoiY2xkZG5iNjRuMDVhMzN2bXVsN3lvaHFkeSJ9.qgs1D9Afd6i19FHChjh61A'
+const mapboxAPIKey = '################'
 const searchQuery = ref('')
 const queryTimeout = ref(null)
 const mapboxSearchResults = ref(null)
